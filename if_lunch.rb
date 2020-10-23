@@ -1,5 +1,5 @@
 # if
-dia = 'Sunday' , 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Saturday' 
+dias = ['Sunday' , 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Saturday']
 
 print "Digite o dia de hoje: "
 
