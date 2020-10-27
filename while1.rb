@@ -19,17 +19,16 @@ while cod_produto != 4
     print "Informe o código do produto: "
     cod_produto = gets.chomp().to_i
 
-    break if cod_produto == 0
-
     if (cod_produto == 1)
         cont_pao += 1
     elsif (cod_produto == 2)
         cont_bolo += 1
     elsif (cod_produto == 3)
         cont_brasileira += 1
-    elsif (cod_produto > 4)
+    elsif (cod_produto == 4)
+        puts "Sistema de contagem finalizado! "
+    else
         puts "Código inválido! "
-
     end
 end
 
