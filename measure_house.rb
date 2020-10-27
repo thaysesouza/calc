@@ -1,6 +1,6 @@
 # Escreva um programa para ler as medidas, largura e comprimento, de uma casa retangular ou quadrada.
 # Calcule a área e o preço da casa.
-# Os dois valores devem ser apresentado com até duas casas decimais.
+# Os dois valores devem ser apresentados com até duas casas decimais.
 
 print "Informe a largura da casa: "
     largura = gets.chomp().to_f
