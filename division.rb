@@ -1,5 +1,5 @@
-x = 0
-y = 0
+dividendo = 0
+divisor = 0
 
 puts("digite o dividendo")
 x = gets.to_i()
